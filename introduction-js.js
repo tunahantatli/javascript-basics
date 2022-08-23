@@ -150,3 +150,29 @@ data1 = Math.floor(Math.random()*100+1);
 
 console.log(data1);
 console.log(typeof data1);
+
+//String
+
+const fname = "Diana";
+const surname = "Anderson";
+const Age = 29;
+
+let data2;
+
+//string concatenations
+data2 = fname+" "+surname;
+data2 = "Diana"
+data2 += "Anderson"
+
+data2 = 'Her name is '+fname +' '+ surname+'. She is '+Age+' years old.';
+data2 = fname.concat(' ',surname);
+
+data2 = data2.toUpperCase();
+data2 = data2.toLowerCase();
+
+//data2=data2.substring(2,5);
+//data2 = data2.slice(1,5);
+data2=data2.indexOf("D")
+
+console.log(data2);
+console.log(typeof data2);
