@@ -122,3 +122,31 @@ console.log(time.getMilliseconds());
 
 console.log(time);
 console.log(typeof time);
+
+//numbers
+let data1;
+
+// data1 = Number("5");
+// data1 = parseInt("5");
+// data1 = parseFloat("5.5");
+
+// data1 = parseInt("5c"); // it's ok. no problem
+// data1 = parseInt("c5"); // not a number 
+// //use isNaN
+// data1 = isNaN("c5"); // true
+// data1 = isNaN("5"); // false
+
+data1 = Math.PI;
+data1 = Math.round(3.5);
+data1 = Math.ceil(3.2); //up
+data1 = Math.floor(8.4); //down
+data1 = Math.pow(3,2); // 3^2=9
+data1 = Math.sqrt(81); //sqrt 
+data1 = Math.abs(-50);
+data1 = Math.min(1,3,5,6,9,87,99,856,354,9997);
+data1 = Math.max(1,3,5,6,9,87,99,856,354,9997);
+data1 = Math.floor(Math.random()*100+1);
+
+
+console.log(data1);
+console.log(typeof data1);
