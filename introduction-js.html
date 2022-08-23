@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-transform: uppercase;
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        font-size: large;
+        font-style: italic;
+      }
+      ul {
+        list-style: lower-alpha;
+      }
+    </style>
+    <script src="introduction-js.js"></script>
+  </head>
+  <body>
+    <h1>Introduction to JavaScript coding</h1>
+    <hr />
+    <p>
+      Hello everyone. The information on this site is an introduction to
+      javascript. It will be examined in more detail in future studies. You can
+      run the codes in visual studio code or your preferred compiler. Or if you
+      right click on this site and click inspect, you can see how the codes
+      appear on the screen. <a href="mailto:tunahantatl@gmail.com">Contact me</a> for comments, suggestions and more!
+    </p>
+    <h2>variables</h2>
+    <h3>primitive types</h3>
+    <ul>
+      <li>
+        <h4>string</h4>
+        let firstName = "Ricardo";<br />
+        console.log(typeof firstName)
+      </li>
+      <li>
+        <h4>number</h4>
+        let age = 25;<br />
+        console.log(typeof age)
+      </li>
+      <li>
+        <h4>bolean</h4>
+        let use_credi= false;<br />
+        console.log (typeof use_credi)
+      </li>
+      <li>
+        <h4>undefined</h4>
+        let phone;<br />
+        console.log(typeof phone)
+      </li>
+    </ul>
+    <h3>reference types: objects</h3>
+    <ul>
+      <li>
+        <h4>array</h4>
+        let list = ["mick", "sebastian", "max", "lando","carlos"]; <br />
+        console.log(typeof list)
+      </li>
+      <li>
+        <h4>object literals</h4>
+        let adress = {<br />
+        street: "yapinti",<br />
+        city: "Mut",<br />
+        provience:"Mersin",<br />
+        country:"Turkiye"<br />
+        }<br />
+        console.log(typeof adress)
+      </li>
+      <li>
+        <h4>function</h4>
+        var calculate = function(){<br />
+        return 0;<br />
+        } <br />
+        console.log(typeof calculate)
+      </li>
+    </ul>
+  </body>
+</html>
