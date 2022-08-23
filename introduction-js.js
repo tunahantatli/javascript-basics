@@ -92,3 +92,33 @@ data = (b>a) || (b>c)
 // ! (not)
 data = !(a>b)//result false
 data = !(a<b)//result true
+
+//
+//
+//
+
+//date object
+let time = new Date();
+let birthday = new Date(1997,5,24)
+
+
+//set methods
+time.setDate(25)
+time.setFullYear(1997)
+time.setMinutes(17)
+
+//Get methods
+console.log(time.getMonth());
+console.log(time.getDate());
+console.log(time.getFullYear());
+console.log(time.getDay());
+console.log(time.getHours());
+console.log(time.getMinutes());
+console.log(time.getSeconds());
+console.log(time.getMilliseconds());
+
+
+//console.log(time.getFullYear()-birthday.getFullYear())
+
+console.log(time);
+console.log(typeof time);

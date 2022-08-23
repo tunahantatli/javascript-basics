@@ -19,7 +19,7 @@
       h6 {
         text-transform: uppercase;
       }
-      h1 {
+      h1, h2 {
         text-align: center;
       }
       .paraf1 {
@@ -37,7 +37,7 @@
   </head>
   <body>
     <h1>Introduction to JavaScript coding</h1>
-    <hr />
+    <hr /> <hr>
     <p class="paraf1">
       Hello everyone. The information on this site is an introduction to
       javascript. It will be examined in more detail in future studies. You can
@@ -48,6 +48,7 @@
       suggestions and more!
     </p>
     <h2>variables</h2>
+    <hr>
     <h3>primitive types</h3>
     <ul>
       <li>
@@ -96,8 +97,9 @@
         console.log(typeof calculate)
       </li>
     </ul>
-    <hr />
+    <hr /><hr><br>
     <h2>operators</h2>
+    <hr>
     <ol>
       <li> 
         let data; <br />
@@ -155,6 +157,37 @@
 
         <h5>! not operators</h5>
         data = !(a>b) //result false
+      </li>
+    </ul>
+    <hr><hr><br>
+    <h2>date object</h2><hr>
+    <ol>
+      <li>let time = new Date();</li>
+      <li>let birthday = new Date(1997,5,24)</li>
+    </ol>
+    <ul>
+      <li>
+        <h4>Set methods</h4>
+        time.setDate(25) <br>
+        time.setFullYear(1997) <br>
+        time.setMinutes(17) <br>
+      </li>
+      <li>
+        <h4>get methods</h4>
+        console.log(time.getMonth()); <br>
+        console.log(time.getDate()); <br>
+        console.log(time.getFullYear()); <br>
+        console.log(time.getDay()); <br>
+        console.log(time.getHours()); <br>
+        console.log(time.getMinutes()); <br>
+        console.log(time.getSeconds()); <br>
+        console.log(time.getMilliseconds()); <br>
+        
+        <br>
+        //console.log(time.getFullYear()-birthday.getFullYear())
+        <br>
+        console.log(time); <br>
+        console.log(typeof time);
       </li>
     </ul>
   </body>
