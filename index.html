@@ -22,12 +22,15 @@
       h1 {
         text-align: center;
       }
-      p {
+      .paraf1 {
         font-size: large;
         font-style: italic;
       }
       ul {
         list-style: lower-alpha;
+      }
+      ol{
+        list-style: none;
       }
     </style>
     <script src="introduction-js.js"></script>
@@ -35,12 +38,14 @@
   <body>
     <h1>Introduction to JavaScript coding</h1>
     <hr />
-    <p>
+    <p class="paraf1">
       Hello everyone. The information on this site is an introduction to
       javascript. It will be examined in more detail in future studies. You can
       run the codes in visual studio code or your preferred compiler. Or if you
       right click on this site and click inspect, you can see how the codes
-      appear on the screen. <a href="mailto:tunahantatl@gmail.com">Contact me</a> for comments, suggestions and more!
+      appear on the screen.
+      <a href="mailto:tunahantatl@gmail.com">Contact me</a> for comments,
+      suggestions and more!
     </p>
     <h2>variables</h2>
     <h3>primitive types</h3>
@@ -89,6 +94,67 @@
         return 0;<br />
         } <br />
         console.log(typeof calculate)
+      </li>
+    </ul>
+    <hr />
+    <h2>operators</h2>
+    <ol>
+      <li> 
+        let data; <br />
+        const a=20; <br />
+        const b=10; <br />
+        const c= 5;<br />
+        let d=3;
+      </li>
+    </ol>
+    
+    <ul>
+      <li>
+        <h4>arithmetic operators</h4>
+        data = a+b; <br />
+        data = a*b; <br />
+        data = a-b; <br />
+        data = a/b; <br />
+        data = d++;//or <br />
+        data = ++d; <br />
+        data = d--;//or <br />
+        data = --d; <br />
+        data = a%b; <br />
+        <br />
+        console.log(data); <br />
+        console.log(typeof data)
+      </li>
+      <li>
+        <h4>assignment operators</h4>
+        data = a; <br />
+        data +=a; //data = data + a; <br />
+        data -=a; //data = data - a; <br />
+        data *=a; //data = data * a; <br />
+        data /=a; //data = data / a; <br />
+        data %=a; // data = data %a; <br />
+      </li>
+      <li>
+        <h4>comparison operators</h4>
+        data = a==b; // boolean result true or false <br />
+        data = b==c; <br />
+        data = 5==="5"; // if use === compares data types as well <br />
+        data = a!=b; // a not equal b, result is true <br />
+        data = a < b ; <br />
+        data = a>b; <br />
+        data = 5>= 5; <br />
+        data = a<=b; <br />
+      </li>
+      <li>
+        <h4>logical operators</h4>
+
+        <h5>&& and operators</h5>
+        data = (a>c) && (a>b) <br />
+
+        <h5>|| or operators</h5>
+        data = (b>a) || (b>c) <br />
+
+        <h5>! not operators</h5>
+        data = !(a>b) //result false
       </li>
     </ul>
   </body>

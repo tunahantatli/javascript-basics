@@ -40,3 +40,55 @@ var calculate = function(){
     return 0;
 }
 console.log(typeof calculate)
+//
+//
+//
+
+
+
+//operators
+let data;
+const a=20;
+const b=10;
+const c= 5;
+let d=3;
+//arithmetic operators
+data = a+b;
+data = a*b;
+data = a-b;
+data = a/b;
+data = d++;//or
+data = ++d;
+data = d--;//or
+data = --d;
+data = a%b;
+
+console.log(data);
+console.log(typeof data)
+
+//assignment operators
+data = a;
+data +=a; //data = data + a;
+data -=a; //data = data - a;
+data *=a; //data = data * a;
+data /=a; //data = data / a;
+data %=a; // data = data %a;
+
+//comparison operators
+data = a==b; // boolean result true or false
+data = b==c;
+data = 5==="5";// if use === compares data types as well
+data = a!=b; // a not equal b, result is true
+data = a<b;
+data = a>b;
+data = 5>= 5;
+data = a<=b;
+
+//logical operators
+//&& and
+data = (a>c) && (a>b)
+// || (or)
+data = (b>a) || (b>c)
+// ! (not)
+data = !(a>b)//result false
+data = !(a<b)//result true
