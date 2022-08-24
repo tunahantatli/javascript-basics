@@ -156,6 +156,7 @@ console.log(typeof data1);
 const fname = "Diana";
 const surname = "Anderson";
 const Age = 29;
+let hobbies = "formula1 SurfCasting WRC";
 
 let data2;
 
@@ -172,7 +173,9 @@ data2 = data2.toLowerCase();
 
 //data2=data2.substring(2,5);
 //data2 = data2.slice(1,5);
-data2=data2.indexOf("D")
+data2 = data2.indexOf("D");
+
+data2 = hobbies.split(' ');
 
 console.log(data2);
 console.log(typeof data2);
